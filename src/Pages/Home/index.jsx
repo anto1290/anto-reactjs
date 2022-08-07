@@ -1,15 +1,12 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import HeaderComponent from "../Components/Header"
-import TableComponent from "../Components/TableComponent"
+import TableComponent from "../../Components/TableComponent"
 import { Image, Button } from 'react-bootstrap'
-import Contact from "../Components/Contact"
-import Footer from "../Components/Footer"
+import Contact from "../../Components/Contact"
 
 
 const Home = () => {
     return (
         <>
-            <HeaderComponent />
             <div id="hero" className="container-fluid p-0">
                 <div className="row">
                     <Image className="gambar-1" src='https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80' fluid />
@@ -65,7 +62,7 @@ const Home = () => {
                 <h2 class="text-center">contact</h2>
                 <Contact />
             </div>
-            <Footer />
+
         </>
     )
 }
