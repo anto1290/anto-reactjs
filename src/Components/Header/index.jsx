@@ -26,6 +26,11 @@ const HeaderComponent = () => {
                                 Counter
                             </NavDropdown.Item>
                         </LinkContainer>
+                        <LinkContainer to="/Counter-redux">
+                            <NavDropdown.Item >
+                                Counter With Redux
+                            </NavDropdown.Item>
+                        </LinkContainer>
                     </NavDropdown>
                 </Nav>
             </Container>
