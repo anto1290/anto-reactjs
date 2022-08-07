@@ -6,6 +6,7 @@ import Register from './Pages/materi/Form/Register';
 import Counter from './Pages/materi/Reusable/Counter/Count';
 import Footer from './Components/Footer';
 import { Route, Routes } from 'react-router-dom';
+import Redux from './Pages/materi/redux';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/Counter" element={<Counter />} />
+        <Route path="/Counter-redux" element={<Redux />} />
       </Routes>
       <Footer />
     </div>
